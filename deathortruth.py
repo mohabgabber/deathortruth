@@ -1,3 +1,24 @@
+'''
+    Death Or Truth. A Simple CLI Python Game
+    Copyright (C) 2022  Mohab Gabber
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+'''
+print(" Death Or Truth  Copyright (C) 2022  Mohab Gabber
+    This program comes with ABSOLUTELY NO WARRANTY.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; Read The LICENSE file for details.")
 Hello = print("Hello Buddy This Is The Death Or Truth Game, Play At Your Own risk\n")
 age = int(input("What`s Your Age? "))
 if age >= 18:
