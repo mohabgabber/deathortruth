@@ -39,6 +39,21 @@ if age >= 18:
       knife_shotgun = input("\nWhich One Do You Pick (knife/Shotgun)? ").lower()
       if knife_shotgun == "knife":
         print("\nyou took the knife. now you went down stairs but the stairs wood was broken and you fell down to a basement and you found matches and cigerattes\n")
+    if up_ignore == "ignore":
+      print("\nwell, the house is empty. so you went outside, and found a dead body.\n")
+      dead_body = input("\ndo you wanna search the body (search/leave it)? ").lower()
+      if dead_body == 'search':
+        print('\nit\'s a male, his pockets are empty. but wait a second, what\'s that?\n')
+        body_object = input("was it a phone, or a cd (phone/cd)?").lower()
+        if body_object == 'phone':
+          print('''the phone was charged, you tried to call 911, 
+            but there is no signal. WHAT WAS THAT!, the phone is making this weird sound, it's... beebing!
+            OMG, the phone exploded and your hand with it. there is no hope, you are lost forever...
+
+            ''')
+      elif dead_body == 'leave it':
+        print("\nyou look around... what was that??, THE BODY IS MOVING!. his head looks at you creepily, and then you hear this, it's coming from nowhere\n")
+        print("YOU HAVE ARRIVED TO THE END, THE END OF YOUR CHOICES")
   elif out_search == 'get out':
     print("\nYou Went Out, And Found An Executioner, You Can't Escape Him!\n")
     death_beheading = input("\nYou Better Just Die (beheading/hanging)? ").lower()
